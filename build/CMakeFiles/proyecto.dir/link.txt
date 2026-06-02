@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproyecto.a CMakeFiles/proyecto.dir/src/SUDOKU.cpp.o CMakeFiles/proyecto.dir/src/utils.cpp.o CMakeFiles/proyecto.dir/src/PSO.cpp.o CMakeFiles/proyecto.dir/src/MEMETICO.cpp.o CMakeFiles/proyecto.dir/src/RECOCIDO.cpp.o CMakeFiles/proyecto.dir/src/TABU.cpp.o
+/usr/bin/ranlib libproyecto.a

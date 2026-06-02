@@ -1,0 +1,1 @@
+/opt/homebrew/bin/g++-15  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main_exec.dir/main/main_SUDOKU.cpp.o -o main_exec  libproyecto.a libproyecto.a /opt/homebrew/Cellar/gcc/15.1.0/lib/gcc/current/libgomp.dylib
