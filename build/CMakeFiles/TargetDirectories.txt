@@ -1,4 +1,0 @@
-/Users/imauriciolopez/Google Drive/Mi unidad/codigos_en_c/estocastica/proyecto/build/CMakeFiles/proyecto.dir
-/Users/imauriciolopez/Google Drive/Mi unidad/codigos_en_c/estocastica/proyecto/build/CMakeFiles/main_exec.dir
-/Users/imauriciolopez/Google Drive/Mi unidad/codigos_en_c/estocastica/proyecto/build/CMakeFiles/edit_cache.dir
-/Users/imauriciolopez/Google Drive/Mi unidad/codigos_en_c/estocastica/proyecto/build/CMakeFiles/rebuild_cache.dir
