@@ -1,0 +1,30 @@
+{
+    "Archivos": [
+        "../datasets/SudokuPuzzles/David_Filmer1.txt",
+        "../datasets/SudokuPuzzles/David_Filmer2.txt",
+        "../datasets/SudokuPuzzles/Inkala.txt",
+        "../datasets/SudokuPuzzles/SD1.txt",
+        "../datasets/SudokuPuzzles/SD2.txt",
+        "../datasets/SudokuPuzzles/SD3.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard1.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard10.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard2.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard3.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard4.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard5.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard6.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard7.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard8.txt",
+        "../datasets/SudokuPuzzles/SudokuSolutionsCom_Hard9.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil1.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil10.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil2.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil3.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil4.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil5.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil6.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil7.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil8.txt",
+        "../datasets/SudokuPuzzles/SudokuWeb_Evil9.txt"
+    ]
+}

@@ -1,0 +1,16 @@
+aiescargot.txt
+coly013.txt
+goldennugget.txt
+platinumblond.txt
+reddwarf.txt
+sabuncu1.txt
+sabuncu10.txt
+sabuncu2.txt
+sabuncu3.txt
+sabuncu4.txt
+sabuncu5.txt
+sabuncu6.txt
+sabuncu7.txt
+sabuncu8.txt
+sabuncu9.txt
+tarx0134.txt

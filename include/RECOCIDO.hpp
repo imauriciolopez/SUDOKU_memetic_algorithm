@@ -42,6 +42,9 @@ public:
     double temp_final;
     double enfriamiento;
 
+    std::vector<std::vector<bool> > fijos;
+    std::vector<std::vector<int> > pistas;
+
     RECOCIDO(int fit_func=0, 
              unsigned int n=0,
              unsigned int seed=0, 
@@ -51,7 +54,11 @@ public:
              int n_inds=0, 
              double temp_inicial=0.0, 
              double temp_final=0.0, 
-             double enfriamiento=0.0):
+             double enfriamiento=0.0,
+             std::vector<std::vector<bool> > fijos_={{}},
+             std::vector<std::vector<int> > pistas_={{}}):
+             fijos(fijos_),
+             pistas(pistas_),
              n_swaps(n_swaps), 
              fit_func(fit_func), 
              n(n),
@@ -82,7 +89,9 @@ public:
                                             n, 
                                             {{}}, 
                                             rep,
-                                            pesos);
+                                            pesos,
+                                            fijos, 
+                                            pistas);
         }
     }
     
@@ -93,11 +102,11 @@ public:
         std::cout<<"SUDOKU"<<std::endl;
     }
 
-    nlohmann::json optimize(){
+    nlohmann::json optimize(double tiempo){
         if(pob.empty()){
             inicializar_poblacion();
         }
-
+        unsigned t0=clock();
         for(int ind=0;ind<n_inds;ind++){
             struct individuo<T>* actual=pob[ind];
             struct individuo<T>* mejor=new struct individuo<T>(*actual);
@@ -153,10 +162,18 @@ public:
 
                 //Enfriamiento
                 T_actual*=enfriamiento;
+
+                if((double(clock()-t0)/CLOCKS_PER_SEC)>tiempo){
+                    break;
+                }
             }
 
             delete actual;
             pob[ind]=mejor;
+
+            if((double(clock()-t0)/CLOCKS_PER_SEC)>tiempo){
+                break;
+            }
         }
 
         std::vector<T> fitnesses(n_inds);

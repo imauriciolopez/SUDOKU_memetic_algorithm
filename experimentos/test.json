@@ -1,0 +1,25 @@
+{
+  "N experimentos": 7,
+  "N hilos": 7,
+  "Dataset": "SudokuPuzzles",
+  "Restriccion tiempo": 2,
+  "Archivo salida": "../resultados/j_1",
+
+  "N": 3,
+  "Seed": 27, 
+  "N inds": 100,
+
+  "Optimizador": "Memetico",
+  "Rep": "Filas",
+  "Fitness func": 1,
+  "Pesos": [1.0, 1.0],
+  
+  "Temp inicial": 10,
+  "Temp final": 1e-5,
+  "Cambio": 0.99999,
+  "N swaps": 1,
+  "Crossover": "Cut",
+  "N swaps cambio": 1, 
+  "N padres": 20,
+  "N its": 100
+}

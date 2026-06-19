@@ -1,0 +1,20 @@
+{
+    "Archivos": [
+        "../datasets/instances/logic-solvable/aiescargot.txt",
+        "../datasets/instances/logic-solvable/coly013.txt",
+        "../datasets/instances/logic-solvable/goldennugget.txt",
+        "../datasets/instances/logic-solvable/platinumblond.txt",
+        "../datasets/instances/logic-solvable/reddwarf.txt",
+        "../datasets/instances/logic-solvable/sabuncu1.txt",
+        "../datasets/instances/logic-solvable/sabuncu10.txt",
+        "../datasets/instances/logic-solvable/sabuncu2.txt",
+        "../datasets/instances/logic-solvable/sabuncu3.txt",
+        "../datasets/instances/logic-solvable/sabuncu4.txt",
+        "../datasets/instances/logic-solvable/sabuncu5.txt",
+        "../datasets/instances/logic-solvable/sabuncu6.txt",
+        "../datasets/instances/logic-solvable/sabuncu7.txt",
+        "../datasets/instances/logic-solvable/sabuncu8.txt",
+        "../datasets/instances/logic-solvable/sabuncu9.txt",
+        "../datasets/instances/logic-solvable/tarx0134.txt"
+    ]
+}
